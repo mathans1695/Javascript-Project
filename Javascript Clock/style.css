@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  background-color: black;
+}
+
+.clock {
+  width: 250px;
+  height: 250px;
+  border: 10px solid white;
+  border-radius: 50%;
+  position: relative;
+}
+
+.hand {
+  width: 5px;
+  height: 230px;
+  position: absolute;
+  top: 115px;
+  left: 115px;
+  margin-top: -115px;
+}
+
+.hour-hand {
+  background-image: linear-gradient(transparent, transparent 12%, white 12%, white 50%, transparent 50%, transparent);
+  transition: transform 0.07s ease-in-out;
+}
+
+.minute-hand {
+  background-image: linear-gradient(transparent, transparent 5%, white 5%, white 50%, transparent 50%, transparent);
+  transition: transform 0.07s ease-in-out;
+}
+
+.second-hand {
+  background-image: linear-gradient(transparent, transparent 5%, white 5%, white 50%, transparent 50%, transparent);
+  transition: transform 0.07s ease-in-out;
+}
