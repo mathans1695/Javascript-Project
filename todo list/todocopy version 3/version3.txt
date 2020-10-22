@@ -1,0 +1,3 @@
+Added highlighter feature
+Added updateSidebar feature
+Added autoSelect feature, when editing tasks were performed
