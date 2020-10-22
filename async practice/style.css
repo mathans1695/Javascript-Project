@@ -1,0 +1,11 @@
+body {
+	position: absolute;
+	--rotation: 30deg;
+}
+
+.cards {
+	position: absolute;
+	top: 100px;
+	left: 10px;
+	transform: rotate(var(--rotation));
+}
