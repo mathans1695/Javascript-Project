@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Canvas</title>
+  </head>
+  <body>
+    <canvas class="myCanvas">
+      <p>Add suitable fallback here.</p>
+    </canvas>
+
+    <script>
+      const canvas = document.querySelector('.myCanvas');
+      
+      const width = canvas.width = window.innerWidth;
+      const height = canvas.height = window.innerHeight;
+      
+      document.body.style.margin = '0';
+      document.body.style.overflow = 'hidden';
+
+      const ctx = canvas.getContext('2d');
+
+      // ctx.fillStyle = 'rgb(0, 0, 0)';
+      // ctx.fillRect(0, 0, width, height);
+
+      // ctx.fillStyle = 'rgb(255,0,0)';
+      // ctx.fillRect(50, 50, 100, 150);
+
+      // ctx.fillStyle = 'rgb(0, 255, 0)';
+      // ctx.fillRect(75, 75, 100, 100);
+
+      // ctx.fillStyle = 'rgba(255, 0, 255, 0.75)';
+      // ctx.fillRect(25, 100, 175, 50);
+
+      // ctx.strokeStyle = 'rgba(255, 255, 255, 1)';
+      // ctx.lineWidth = '5';
+      // ctx.strokeRect(25, 25, 175, 200);
+
+      // ctx.beginPath();
+      // ctx.strokeStyle = 'rgb(255, 255, 255)';
+      // ctx.lineWidth = 1;
+      // ctx.moveTo(250, 200);
+      // ctx.lineTo(250, 250);
+      // ctx.();
+
+      // ctx.beginPath();
+      // ctx.strokeStyle = 'green';
+      // ctx.lineWidth = 1;
+      // ctx.moveTo(250, 250);
+      // ctx.lineTo(300, 300);
+      // ctx.stroke();
+
+      // ctx.beginPath();
+      // ctx.strokeStyle = 'white';
+      // ctx.lineWidth = 1;
+      // ctx.moveTo(300, 300);
+      // ctx.lineTo(250, 200);
+      // ctx.stroke();
+      function degToRad(degrees) {
+        return degrees * Math.PI / 180;
+      }
+
+      // ctx.fillStyle = 'rgb(255, 0, 0)';
+      // ctx.beginPath();
+      // ctx.moveTo(50, 50);
+
+      // ctx.lineTo(150, 50);
+      // let triHeight = 50 * Math.tan(degToRad(60));
+      // ctx.lineTo(75, 25+triHeight);
+      // ctx.lineTo(50, 50);
+      // ctx.fill();
+
+      ctx.fillStyle = 'white';
+      ctx.beginPath();
+      ctx.arc(200, 106, 50, degToRad(-45), degToRad(45), true);
+      ctx.fill();
+
+      ctx.fillStyle = 'yellow';
+      ctx.beginPath();
+      ctx.arc(200, 106, 50, degToRad(-45), degToRad(45), true);
+      ctx.lineTo(200, 106);
+      ctx.fill();
+
+    </script>
+  </body>
+</html>

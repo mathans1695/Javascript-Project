@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-header {
+  height: 250px;
+  width: 100%;
+  border: 1px solid gray;
+  background-color: black;
+  display: flex;
+}
