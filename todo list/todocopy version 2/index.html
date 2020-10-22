@@ -1,0 +1,48 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Todo list</title>
+		<meta lang='en-US'>
+		<link rel='stylesheet' type='text/css' href='style.css'>
+	</head>
+	<body>
+		<!-- Navigation Bar -->
+		<nav class='nav'>
+			<div class='logo'>
+				<a href='#' alt='fun todo logo'>FUN TODO</a>
+			</div>
+			
+			<div class='none'>
+			</div>
+			
+			<div class = 'signup'>
+				<a href='#' alt='signup'>SIGN UP</a>
+			</div>
+			
+			<div class='login'>
+				<a href='#' alt='login'>LOGIN</a>
+			</div>
+		</nav>
+		
+		<!-- Creating task input field to help the user to add the tasks -->
+		<div class='aside-main'>
+			<!-- side bar which displays recently added tasks with title -->
+			<aside class='left-sidebar'>
+				<h2>TASKS</h2>
+			</aside>
+			<main class='container'>
+				<div class='input'>
+					<form class='todos'>
+						<label for='todo'></label>
+						<input type='text' alt='Enter what you want to do' id='todo' placeholder='What do you want to add?'>
+						<button class='button'>ADD</button>
+					</form>
+					<button class='add-new-todo-button'>Add New Todo</button>
+				</div>
+				<div class='output'>
+				</div>
+			</main>
+		</div>
+		<script src='script.js'></script>
+	</body>
+</html>
