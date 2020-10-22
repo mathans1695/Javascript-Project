@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+  background-color: rebeccapurple;
+  color: white;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  width: 70%;
+  max-width: 980px;
+  margin: 0 auto;
+  flex-direction: row;
+  padding: 10px;
+  box-shadow: 1px 1px 5px black, -1px -1px 5px black;
+  margin-bottom: 20px;
+  background-color: rgba(224, 236, 241, 0.2);
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 70%;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 10px;
+  box-shadow: 1px 1px 5px black, -1px -1px 5px black;
+  margin-bottom: 20px;
+  background-color: rgba(224, 236, 241, 0.2);
+  border-radius: 10px;
+}
+
+.repos {
+  display: none;
+}
+
+.profile {
+  display: none;
+}
+
+#user {
+  margin-top: 10px;
+  padding: 5px;
+  width: 100%;
+}
+
+#user:focus {
+  background-color: black;
+  color: white;
+  border: 1px solid whitesmoke;
+  box-shadow: 1px 1px 5px red, -1px -1px 5px red;
+}
+
+.content {
+  width: 50%;
+}
+
+.row1 {
+  width: 30%;
+  text-align: center;
+}
+
+h2 {
+  text-shadow: 1px 1px 15px blueviolet, -1px 1px 15px blueviolet;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+  margin: 10px 0;
+  border-radius: 10%;
+  box-shadow: 1px 1px 5px red, -1px 1px 5px red;
+  border: 1px solid white;
+}
+
+span {
+  border: 1px solid white;
+  background-color: black;
+  color: whitesmoke;
+  padding: 5px;
+  margin-left: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px red, -1px -1px 5px red;
+}
+
+.center {
+  justify-content: center;
+}
+
+.row2 {
+  width: 70%;
+}
+
+.details {
+  padding: 5px;
+}
+
+.user {
+  margin-top: 20px;
+  margin-left: 15px;
+  background-color: black;
+  padding: 10px;
+  box-shadow: 1px 1px 5px red, -1px -1px 5px red;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+p {
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 5px;
+  border: 1px solid white;
+  display: inline-block;
+  background-color: black;
+  box-shadow: 1px 1px 5px red, -1px -1px 5px red;
+  border-radius: 5px;
+}
+
+a:hover {
+  border: 1px solid red;
+  box-shadow: 1px 1px 5px black, -1px -1px 5px black;
+  color: black;
+  background-color: white;
+}
+
+.row50 {
+  width: 50%;
+  padding: 10px;
+}
+
+.row50 {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.title {
+  text-align: center;
+  text-decoration: underline;
+  display: none;
+  margin-bottom: 10px;
+}
+
+.error {
+  border: 1px solid red;
+  box-shadow: 1px 1px 5px black, -1px -1px 5px black;
+  color: black;
+  background-color: white;
+  margin: 0 auto;
+  width: 70%;
+  max-width: 980px;
+}
