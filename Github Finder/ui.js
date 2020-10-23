@@ -53,11 +53,12 @@ UI.prototype.displayRepo = function(repos) {
 }
 
 UI.prototype.error = function() {
-  console.log(1);
   const err = document.createElement('div');
   err.classList = 'error';
   err.innerText = 'Enter valid username';
 
   const insert = document.querySelector('.title');
   document.body.insertBefore(err, insert);
+  
+  setTimeout(() => document.body.removeChild(err, err.parentElement), 1000);
 }
