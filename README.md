@@ -34,3 +34,10 @@ Navigate to todo list folder to find raw files
   
 ![Todo Version-4](https://github.com/mathans1695/Javascript-Project/blob/master/Javascript%20Project%20snapshot/Todo%20list(3).png)
   
+# Loan Calculator
+Navigate to loan calculator folder to find raw files
+
+  - **Project Summary** - Enter principal amount, interest and number of years to repay, the program will calculate the monthly installments and interests for you
+  - **Project Snapshot** - Below you can find the snapshot of the project
+
+![Loan Calculator](https://github.com/mathans1695/Javascript-Project/blob/master/Javascript%20Project%20snapshot/Loan%20Calculator.png)
