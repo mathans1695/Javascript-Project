@@ -1,5 +1,5 @@
 # Javascript-Project
-Repository contains vanilla javascript projects
+Vanilla Javascript Projects Repo
 
 # Github Finder
 Navigate to github finder folder to find raw files
